@@ -1,0 +1,227 @@
+    /*global*/
+    
+    body {
+        margin: 0;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    .titles {
+        font-size: 2rem;
+        color: #ff3385;
+    }
+    /*ig-logo*/
+    
+    .ig-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ig-logo a {
+        height: 3rem;
+        background-color: white;
+        color: #ff3385;
+    }
+    
+    .fa-instagram {
+        font-size: 2rem;
+        margin-top: .5rem;
+    }
+    /*header*/
+    
+    header {
+        width: 100%;
+    }
+    /*hero*/
+    
+    .dbj-logo {
+        font-family: "Times New Roman", Times, serif;
+        color: white;
+        font-size: 4rem;
+        font-weight: 500;
+        margin-top: 2.6rem;
+        margin-bottom: 0;
+        margin-right: 10%;
+    }
+    
+    .hero {
+        background: rgb(0, 159, 255);
+        background: -moz-linear-gradient(90deg, rgba(0, 159, 255, 1) 0%, rgba(0, 168, 255, 1) 30%, rgba(0, 212, 255, 1) 74%);
+        background: -webkit-linear-gradient(90deg, rgba(0, 159, 255, 1) 0%, rgba(0, 168, 255, 1) 30%, rgba(0, 212, 255, 1) 74%);
+        background: linear-gradient(90deg, rgba(0, 159, 255, 1) 0%, rgba(0, 168, 255, 1) 30%, rgba(0, 212, 255, 1) 74%);
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#009fff", endColorstr="#00d4ff", GradientType=1);
+    }
+    
+    .navigation {
+        display: inline-flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .hero nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.4rem;
+        font-weight: 500;
+        text-shadow: 1px 1px 1px gray;
+        margin-top: 3rem;
+        margin-right: 2rem;
+    }
+    
+    .hero nav a:last-child {
+        margin-right: 0;
+    }
+    
+    .hero nav a:hover {
+        color: #cce0ff;
+    }
+    
+    .hero nav {
+        width: 100%;
+    }
+    
+    .hero-parent {
+        height: 40rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .hero-child {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    
+    .hero-items {
+        width: 25%;
+        box-shadow: 1px 1px 15px black;
+        margin-right: 2rem;
+    }
+    
+    .hero-items-xl {
+        max-width: 35%;
+        margin-right: 2rem;
+    }
+    
+    .hero-parent p {
+        width: 20rem;
+        font-family: 'PT Serif', serif;
+        font-size: 4em;
+        color: white;
+        font-weight: 700;
+        margin: 0 5% 0 5%;
+        text-transform: capitalize;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+    /*about*/
+    
+    .denim-photo {
+        max-width: 30%;
+        margin-right: 2rem;
+    }
+    
+    .about {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #about h1.titles {
+        margin: 5rem 0;
+        padding-top: 2rem;
+    }
+    
+    .about p {
+        width: 30rem;
+        font-size: 1.5rem;
+    }
+    /*designs*/
+    
+    .titles.designs {
+        margin: 10rem 0 3rem 0;
+        padding-top: 2rem;
+    }
+    /*accessories*/
+    
+    .titles.accessories {
+        padding-top: 5rem;
+        margin: 5rem 0;
+    }
+    
+    .accessories-items {
+        height: 25rem;
+        background-color: whitesmoke;
+        margin-bottom: 10rem;
+    }
+    
+    .carousel-inner {
+        height: 25rem;
+        width: 25rem;
+    }
+    
+    .ac img {
+        height: 70%;
+        width: 80%;
+        object-fit: cover;
+    }
+    
+    .jackets {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto auto;
+        grid-gap: 25px;
+        padding: 100px;
+    }
+    
+    .producto {
+        height: 20rem;
+        width: 20rem;
+        background-color: gray;
+    }
+    /*contact*/
+    
+    .contact {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+    
+    .titles.contact {
+        margin-top: 11.5rem;
+    }
+    
+    .contact-img {
+        width: 30%;
+        margin-right: 2rem;
+        background-image: url("img/contact.jpg");
+        background-position: cover;
+    }
+    
+    .contact-item {
+        height: 30rem;
+        width: 30rem;
+        background-color: whitesmoke;
+        margin-right: 2rem;
+    }
+    
+    .contact-img p {
+        width: 15rem;
+        font-size: 5rem;
+        color: white;
+        font-weight: 800;
+    }
+    
+    footer {
+        height: 2.5rem;
+        background: rgb(0, 159, 255);
+        background: -moz-linear-gradient(90deg, rgba(0, 159, 255, 1) 0%, rgba(0, 168, 255, 1) 30%, rgba(0, 212, 255, 1) 74%);
+        background: -webkit-linear-gradient(90deg, rgba(0, 159, 255, 1) 0%, rgba(0, 168, 255, 1) 30%, rgba(0, 212, 255, 1) 74%);
+        background: linear-gradient(90deg, rgba(0, 159, 255, 1) 0%, rgba(0, 168, 255, 1) 30%, rgba(0, 212, 255, 1) 74%);
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#009fff", endColorstr="#00d4ff", GradientType=1);
+    }

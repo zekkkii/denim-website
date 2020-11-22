@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DBJ Customized Denim </title>
     <link rel="stylesheet" href="css/lightbox.min.css">
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/90dc08d2f0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/normalize.css">
 </head>
 
-<body>
+<body class="text-center">
     <header>
         <div class="ig-logo">
             <a target="_blank" href="https://www.instagram.com/denimbyj/?hl=es-la"> <i class="fab fa-instagram animate__animated animate__heartBeat animate__infinite	infinite"></i> </a>
@@ -22,16 +23,16 @@
         <div class="hero">
             <div class="navigation">
                 <nav class="navbar navbar-expand-lg navbar-light ">
-                    <span class="dbj-logo" href="#">DBJ</span>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                        <span class="dbj-logo" href="#">DBJ</span>
                         <div class="navbar-nav">
                             <a href="#about">About</a>
                             <a href="#designs">Designs</a>
                             <a href="#accessories">Accessories</a>
-                            <a href="#know-me">Get To now Me </a>
+                            <a href="#know-me">Get To know Me </a>
                             <a href="#contact">Contact Me!</a>
                         </div>
                     </div>
@@ -60,10 +61,10 @@
     </header>
     <div class="body">
         <section id="about">
-            <h1 class="titles">What's denim?</h1>
+            <h1 class="titles my-5 pt-2">What's denim?</h1>
             <div class="about" id="about">
                 <div class="denim-photo">
-                    <img src="img/denim photo.jpg" alt="img Denim jacket">
+                    <img src="img/denim photo.jpg" alt="img Denim jacket" class="rounded">
                 </div>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus nam cumque blanditiis soluta at, quibusdam libero rem eaque. Ab facere molestiae minus ad ex fugit repellat laboriosam fuga autem nihil. Lorem ipsum dolor sit amet, consectetur
                     adipisicing elit. Laborum quisquam tempore labore, facere quam tempora autem sit ea. Ratione aliquam quasi placeat praesentium eos sunt totam cum nobis animi quibusdam.Ab facere molestiae minus ad ex fugit repellat laboriosam fuga
@@ -72,24 +73,49 @@
             </div>
         </section>
         <section id="designs">
-            <h1 class="titles designs">Designs</h1>
+            <h1 class="titles designs my-5 pt-2">Designs</h1>
             <div class="jackets">
 
-                <a href="img/jacket-9.jpg" data-lightbox="jackets"><img src="img/jacket-11.jpg" alt="jacket" class="rounded "></a>
-                <a href="img/jacket-2.jpg" data-lightbox="jackets"><img src="img/jacket-2.jpg" alt="jacket" class="rounded "></a>
-                <a href="img/jacket-10.jpg" data-lightbox="jackets"><img src="img/jacket-10.jpg" alt="jacket" class="rounded "></a>
-                <a href="img/jacket-8.jpg" data-lightbox="jackets"><img src="img/jacket-8.jpg" alt="jacket" class="rounded "></a>
-                <a href="img/jacket-6.jpg" data-lightbox="jackets"><img src="img/jacket-6.jpg" alt="jacket" class="rounded "></a>
-                <a href="img/jacket-4.jpg" data-lightbox="jackets"><img src="img/jacket-4.jpg" alt="jacket" class="rounded "></a>
-                <a href="img/jacket-7.jpg" data-lightbox="jackets"><img src="img/jacket-7.jpg" alt="jacket" class="rounded "></a>
-                <a href="img/jacket-5.jpg" data-lightbox="jackets"><img src="img/jacket-5.jpg" alt="jacket" class="rounded "></a>
-                <a href="img/jacket-3.jpg" data-lightbox="jackets"><img src="img/jacket-3.jpg" alt="jacket" class="rounded "></a>
-                <a href="img/jacket-9.jpg" data-lightbox="jackets"><img src="img/jacket-9.jpg" alt="jacket" class="rounded "></a>
-                <a href="img/jacket-1.jpg" data-lightbox="jackets"><img src="img/jacket-1.jpg" alt="jacket" class="rounded "></a>
+                <a href="img/jacket-1.jpg" data-lightbox="jackets">
+                    <div class="rounded " id="jacket-11"></div>
+                </a>
+                <a href="img/jacket-2.jpg" data-lightbox="jackets">
+                    <div class="rounded " id="jacket-2"></div>
+                </a>
+                <a href="img/jacket-3.jpg" data-lightbox="jackets">
+                    <div class="rounded " id="jacket-3"></div>
+                </a>
+                <a href="img/jacket-4.jpg" data-lightbox="jackets">
+                    <div class="rounded " id="jacket-4"></div>
+                </a>
+                <a href="img/jacket-5.jpg" data-lightbox="jackets">
+                    <div class="rounded " id="jacket-5"></div>
+                </a>
+                <a href="img/jacket-6.jpg" data-lightbox="jackets">
+                    <div class="rounded " id="jacket-6"></div>
+                </a>
+                <a href="img/jacket-7.jpg" data-lightbox="jackets">
+                    <div class="rounded " id="jacket-7"></div>
+                </a>
+                <a href="img/jacket-8.jpg" data-lightbox="jackets">
+                    <div class="rounded " id="jacket-8"></div>
+                </a>
+                <a href="img/jacket-9.jpg" data-lightbox="jackets">
+                    <div class="rounded " id="jacket-9"></div>
+                </a>
+                <a href="img/jacket-10.jpg" data-lightbox="jackets">
+                    <div class="rounded " id="jacket-10"></div>
+                </a>
+                <a href="img/jacket-11.jpg" data-lightbox="jackets">
+                    <div class="rounded " id="jacket-11"></div>
+                </a>
+                <a href="img/jacket-12.jpg" data-lightbox="jackets">
+                    <div class="rounded " id="jacket-12"></div>
+                </a>
             </div>
         </section>
         <section id="accessories">
-            <h1 class="titles accessories">accessories</h1>
+            <h1 class="titles  my-5 pt-2 py-5">accessories</h1>
 
 
             <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
@@ -97,30 +123,30 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 </ol>
-                <div class="carousel-inner ">
+                <div class="carousel-inner px-2">
                     <div class="carousel-item active">
                         <div class="d-flex justify-content-center">
-                            <div class="ac ro">
-                                <img src="img/ac-1.jpg" class="rounded">
+                            <div class="ac rounded">
+                                <img src="img/ac-1.jpg">
                             </div>
                             <div class="ac">
-                                <img src="img/ac-2.jpg" class="rounded">
+                                <img src="img/ac-2.jpg">
                             </div>
                             <div class="ac">
-                                <img src="img/ac-4.jpg" class="rounded">
+                                <img src="img/ac-4.jpg">
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item  ">
                         <div class="d-flex justify-content-center">
                             <div class="ac">
-                                <img src="img/ac-5.jpg" class="rounded">
+                                <img src="img/ac-5.jpg">
                             </div>
                             <div class="ac">
-                                <img src="img/ac-6.jpg" class="rounded">
+                                <img src="img/ac-6.jpg">
                             </div>
                             <div class="ac">
-                                <img src="img/ac-7.jpg" class="rounded">
+                                <img src="img/ac-7.jpg">
                             </div>
                         </div>
                     </div>
@@ -139,14 +165,14 @@
 
         </section>
         <section>
-            <h1 class="titles" id="know-me">Get to know me</h1>
+            <h1 class="titles pt-2 py-5" id="know-me">Get to know me</h1>
             <div class="about">
                 <p>“Hi there! My name is Jael and I love being creative! My hobbies include dancing, reading and baking! Designing jackets is another one of my hobbies I enjoy. I’ve always had a passion for expressing creativity through so many ways. I started
                     designing jean jackets last year and I’ve loved it much more ever since. It’s fun working on projects and making ideas come to life. When I’m not designing jackets, I spend most of my time volunteering and teaching others. I also love
                     and enjoy catching up with friends. DBJ has only been possible with support, so thank you for supporting my little business and making it possible to share what I love. Feel free to contact me with any questions through my social media
                     regarding orders, designs & or policies! I’d love to chat with you!“</p>
-                <div class="denim-photo">
-                    <img src="img/get to now me.jpg" class="rounded" alt="img Denim jacket">
+                <div class="denim-photo-contact">
+                    <img src="img/get to now me.jpg" class="rounded" alt="img Denim jacket" class="rounded">
                 </div>
             </div>
         </section>
@@ -156,17 +182,37 @@
                 <div class="contact-img">
                     <p>Let's Get In Touch!</p>
                 </div>
-                <div class="contact-item"></div>
+                <div class="contact-item">
+                    <div class="mt-5">
+                        <p class="">🔹All designs are hand painted <span class="d-block">or</span> handmade</p>
+                        <p>Order through ✨DM✨</p>
+                        <p>⚡️ Shipping Available📦</p>
+                        <a href="https://www.instagram.com/denimbyj/" class="text-decoration-none d-flex justify-content-center">
+                            <div class="ig-link d-flex align-items-center mt-4">
+                                <div class="iglink-img rounded-lg ml-5 mr-4 py-3">
+                                    <img src="img/denim-logo.jpg" alt="Denim Logo" class="rounded-circle">
+                                </div>
+                                <span>@denimbyj</span>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
             </div>
         </section>
     </div>
     <footer>
-        <p id="year"></p>
+        <p class="font-weight-bold text-white">&copy;<span id="year"></span></p>
     </footer>
+
     <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        let year = document.getElementById("year");
+        year.innerText = new Date().getFullYear();
+    </script>
 </body>
 
 </html>

@@ -1,354 +1,484 @@
-    /*global*/
-    
-    body {
-        margin: 0;
-        text-transform: capitalize;
-        text-align: center;
-    }
-    
-    .titles {
-        font-size: 2rem;
-        color: #ff3385;
-        font-family: 'Lobster', cursive;
-    }
-    /*ig-logo*/
-    
-    .ig-logo {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .ig-logo a {
-        height: 3rem;
-        background-color: white;
-        color: #ff3385;
-    }
-    
-    .fa-instagram {
-        font-size: 2rem;
-        margin-top: .5rem;
-    }
-    
-    .navbar-nav {
-        margin-right: -180px;
-    }
-    /*header*/
-    
-    header {
-        width: 100%;
-    }
-    /*hero*/
-    
-    .dbj-logo {
-        font-family: "Times New Roman", Times, serif;
-        color: white;
-        font-size: 4rem;
-        font-weight: 500;
-        margin-top: 2.6rem;
-        margin-bottom: 0;
-        margin-right: 18%;
-    }
-    
-    .hero {
-        background: rgb(0, 159, 255);
-        background: -moz-linear-gradient(90deg, rgba(0, 159, 255, 1) 0%, rgba(0, 168, 255, 1) 30%, rgba(0, 212, 255, 1) 74%);
-        background: -webkit-linear-gradient(90deg, rgba(0, 159, 255, 1) 0%, rgba(0, 168, 255, 1) 30%, rgba(0, 212, 255, 1) 74%);
-        background: linear-gradient(90deg, rgba(0, 159, 255, 1) 0%, rgba(0, 168, 255, 1) 30%, rgba(0, 212, 255, 1) 74%);
-        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#009fff", endColorstr="#00d4ff", GradientType=1);
-    }
-    
-    .navigation {
-        display: inline-flex;
-        justify-content: center;
-        width: 100%;
-    }
-    
-    .hero nav a {
-        text-decoration: none;
-        color: white;
-        font-size: 1.4rem;
-        font-weight: 500;
-        text-shadow: 1px 1px 1px gray;
-        margin-top: 3rem;
-        margin-right: 2rem;
-    }
-    
-    .hero nav a:last-child {
-        margin-right: 0;
-    }
-    
-    .hero nav a:hover {
-        color: #cce0ff;
-    }
-    
-    .hero nav {
-        width: 100%;
-    }
-    
-    .hero-parent {
-        height: 40rem;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .hero-child {
-        display: flex;
-        justify-content: end;
-        align-items: center;
-    }
-    
-    .hero-items {
-        width: 25%;
-        box-shadow: 1px 1px 15px black;
-        margin-right: 2rem;
-    }
-    
-    .hero-items-xl {
-        max-width: 35%;
-        margin-right: 2rem;
-    }
-    
-    .hero-parent p {
-        width: 20rem;
-        font-family: 'PT Serif', serif;
-        font-size: 4em;
-        color: white;
-        font-weight: 700;
-        margin: 0 5% 0 5%;
-        text-transform: capitalize;
-    }
-    
-    img {
-        width: 100%;
-        height: auto;
-    }
-    /*about*/
-    
-    .denim-photo {
-        max-width: 30%;
-        margin-right: 2.5rem;
-        display: flex;
-        align-items: center;
-    }
-    
-    .denim-photo-contact {
-        max-width: 30%;
-        margin-left: 2.5rem;
-        display: flex;
-        align-items: center;
-    }
-    
-    .about {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .about p {
-        width: 30rem;
-        font-size: 1.5rem;
-    }
-    /*designs*/
-    /*accessories*/
-    
-    .accessories-items {
-        height: 25rem;
-        background-color: whitesmoke;
-        margin-bottom: 10rem;
-    }
-    
-    .carousel-inner {
-        height: 25rem;
-        width: 25rem;
-    }
-    
-    .ac img {
-        height: 500px;
-        width: 500px;
-        padding: 15px;
-        object-fit: cover;
-    }
-    
-    .jackets {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        grid-template-rows: auto auto auto;
-        gap: 25px 25px;
-        padding: 0 150px;
-    }
-    
-    .producto {
-        height: 20rem;
-        width: 20rem;
-        background-color: gray;
-    }
-    /*contact*/
-    
-    .contact {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 5rem;
-    }
-    
-    .titles.contact {
-        margin-top: 11.5rem;
-    }
-    
-    .contact-img {
-        height: 550px;
-        width: 600px;
-        margin-right: 2rem;
-        background-image: url("../img/contact.jpg");
-        background-position: cover;
-    }
-    
-    .contact-item {
-        height: 550px;
-        width: 600px;
-        background-color: whitesmoke;
-        margin-right: 2rem;
-    }
-    
-    .contact-img p {
-        width: 15rem;
-        font-size: 5rem;
-        color: white;
-        font-weight: 800;
-        text-shadow: 1px 1px 10px black;
-        margin: 70px 0 0 80px;
-    }
-    
-    footer {
-        height: 2.5rem;
-        background: rgb(0, 159, 255);
-        background: -moz-linear-gradient(90deg, rgba(0, 159, 255, 1) 0%, rgba(0, 168, 255, 1) 30%, rgba(0, 212, 255, 1) 74%);
-        background: -webkit-linear-gradient(90deg, rgba(0, 159, 255, 1) 0%, rgba(0, 168, 255, 1) 30%, rgba(0, 212, 255, 1) 74%);
-        background: linear-gradient(90deg, rgba(0, 159, 255, 1) 0%, rgba(0, 168, 255, 1) 30%, rgba(0, 212, 255, 1) 74%);
-        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#009fff", endColorstr="#00d4ff", GradientType=1);
-    }
-    /*Images*/
-    
-    #jacket-1 {
-        background-image: url("../img/jacket-1.jpg");
-        height: 300px;
-        width: 300px;
-        background-size: cover;
-        background-position: center;
-    }
-    
-    #jacket-2 {
-        background-image: url("../img/jacket-2.jpg");
-        height: 300px;
-        width: 300px;
-        background-size: cover;
-        background-position: center;
-    }
-    
-    #jacket-3 {
-        background-image: url("../img/jacket-3.jpg");
-        height: 300px;
-        width: 300px;
-        background-size: cover;
-        background-position: center;
-    }
-    
-    #jacket-4 {
-        background-image: url("../img/jacket-4.jpg");
-        height: 300px;
-        width: 300px;
-        background-size: cover;
-        background-position: center;
-    }
-    
-    #jacket-5 {
-        background-image: url("../img/jacket-5.jpg");
-        height: 300px;
-        width: 300px;
-        background-size: cover;
-        background-position: center;
-    }
-    
-    #jacket-6 {
-        background-image: url("../img/jacket-6.jpg");
-        height: 300px;
-        width: 300px;
-        background-size: cover;
-        background-position: center;
-    }
-    
-    #jacket-7 {
-        background-image: url("../img/jacket-7.jpg");
-        height: 300px;
-        width: 300px;
-        background-size: cover;
-        background-position: center;
-    }
-    
-    #jacket-8 {
-        background-image: url("../img/jacket-8.jpg");
-        height: 300px;
-        width: 300px;
-        background-size: cover;
-        background-position: center;
-    }
-    
-    #jacket-9 {
-        background-image: url("../img/jacket-9.jpg");
-        height: 300px;
-        width: 300px;
-        background-size: cover;
-        background-position: center;
-    }
-    
-    #jacket-10 {
-        background-image: url("../img/jacket-10.jpg");
-        height: 300px;
-        width: 300px;
-        background-size: cover;
-        background-position: center;
-    }
-    
-    #jacket-11 {
-        background-image: url("../img/jacket-11.jpg");
-        height: 300px;
-        width: 300px;
-        background-size: cover;
-        background-position: center;
-    }
-    
-    #jacket-12 {
-        background-image: url("../img/jacket-12.jpg");
-        height: 300px;
-        width: 300px;
-        background-size: cover;
-        background-position: center;
-    }
-    
-    .contact-item p {
-        font-size: 2rem;
-        font-weight: bold;
-    }
-    
-    .ig-link {
-        border: solid 2px#ccccb3;
-        border-radius: 10px;
-        width: 400px;
-        box-shadow: 1px 1px 10px gray;
-        transition: .2s ease-in-out;
-    }
-    
-    .ig-link:hover {
-        transform: scale(1.1, 1.1);
-    }
-    
-    .iglink-img {
-        width: 100px;
-    }
-    
-    .ig-link span {
-        font-size: 25px;
-        font-weight: bold;
-        color: gray;
-    }
+        /*global*/
+        
+        body {
+            margin: 0;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        
+        .titles {
+            font-size: 2rem;
+            color: #ff3385;
+            font-family: 'Lobster', cursive;
+        }
+        /*ig-logo*/
+        
+        .ig-logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .ig-logo a {
+            height: 3rem;
+            background-color: white;
+            color: #ff3385;
+        }
+        
+        .fa-instagram {
+            font-size: 2rem;
+            margin-top: .5rem;
+        }
+        
+        header {
+            width: 100%;
+        }
+        /*hero*/
+        
+        .dbj-logo {
+            font-family: "Times New Roman", Times, serif;
+            color: white;
+            font-size: 4rem;
+            font-weight: 500;
+            margin-top: 2.6rem;
+            margin-bottom: 0;
+            margin-right: 15%;
+        }
+        
+        .hero {
+            background: rgb(0, 159, 255);
+            background: -moz-linear-gradient(90deg, rgba(0, 159, 255, 1) 0%, rgba(0, 168, 255, 1) 30%, rgba(0, 212, 255, 1) 74%);
+            background: -webkit-linear-gradient(90deg, rgba(0, 159, 255, 1) 0%, rgba(0, 168, 255, 1) 30%, rgba(0, 212, 255, 1) 74%);
+            background: linear-gradient(90deg, rgba(0, 159, 255, 1) 0%, rgba(0, 168, 255, 1) 30%, rgba(0, 212, 255, 1) 74%);
+            filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#009fff", endColorstr="#00d4ff", GradientType=1);
+        }
+        
+        .navigation {
+            display: inline-flex;
+            justify-content: center;
+            width: 100%;
+            padding: 0 20px;
+        }
+        
+        .hero nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.4rem;
+            font-weight: 500;
+            text-shadow: 1px 1px 1px gray;
+            margin-top: 3rem;
+            margin-right: 2rem;
+        }
+        
+        .hero nav a:last-child {
+            margin-right: 0;
+        }
+        
+        .hero nav a:hover {
+            color: #cce0ff;
+        }
+        
+        .hero nav {
+            width: 100%;
+        }
+        
+        .hero-parent-container {
+            padding: 60px 0;
+        }
+        
+        @media (max-width:992px) {
+            .hero-parent-container {
+                display: flex;
+                justify-content: center;
+            }
+        }
+        
+        .hero-parent {
+            height: auto;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        
+        @media (max-width:992px) {
+            .hero-parent {
+                display: block;
+            }
+        }
+        
+        .hero-child {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+        }
+        
+        .hero-items {
+            width: 25%;
+            box-shadow: 1px 1px 15px black;
+            margin-right: 2rem;
+        }
+        
+        .hero-items-xl {
+            max-width: 35%;
+            margin-right: 2rem;
+        }
+        
+        .hero-parent p {
+            width: 20rem;
+            font-family: 'PT Serif', serif;
+            font-size: 4vw;
+            color: white;
+            font-weight: 700;
+            margin: 0 5% 0 5%;
+            text-transform: capitalize;
+        }
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+        /*about*/
+        
+        .denim-photo {
+            max-width: 40%;
+            margin-right: 2.5rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .denim-photo-contact {
+            max-width: 30%;
+            margin-left: 2.5rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .about {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .about p {
+            width: 30rem;
+            font-size: 1.5rem;
+        }
+        
+        @media(max-width:992px) {
+            .about {
+                display: block;
+            }
+        }
+        /*accessories*/
+        
+        .accessories-items {
+            height: 25rem;
+            background-color: whitesmoke;
+            margin-bottom: 10rem;
+        }
+        
+        .carousel-inner {
+            height: 25rem;
+            width: 25rem;
+        }
+        
+        .ac img {
+            height: 500px;
+            width: 500px;
+            padding: 15px;
+            object-fit: cover;
+        }
+        
+        .jackets {
+            width: 100%;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: auto auto auto;
+            gap: 25px 25px;
+            padding: 0 50px;
+            justify-content: center;
+        }
+        
+        @media(max-width:1350px) {
+            .jackets {
+                grid-template-columns: auto auto auto;
+                grid-template-rows: auto auto auto;
+            }
+        }
+        
+        @media(max-width:992px) {
+            .jackets {
+                grid-template-columns: auto auto;
+                grid-template-rows: auto auto;
+            }
+        }
+        
+        @media (max-width: 680px) {
+            .jackets {
+                grid-template-columns: auto;
+            }
+        }
+        
+        .producto {
+            height: 20rem;
+            width: 20rem;
+            background-color: gray;
+        }
+        /*contact*/
+        
+        .contact {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 5rem;
+        }
+        
+        @media (max-width:992px) {
+            .contact {
+                display: block;
+            }
+        }
+        
+        .titles.contact {
+            margin-top: 11.5rem;
+        }
+        
+        .contact-img {
+            height: 550px;
+            width: 600px;
+            margin-right: 2rem;
+            background-image: url("../img/contact.webp");
+            background-position: cover;
+        }
+        
+        .contact-item {
+            height: 550px;
+            width: 600px;
+            background-color: whitesmoke;
+            margin-right: 2rem;
+        }
+        
+        .contact-img p {
+            width: 15rem;
+            font-size: 5rem;
+            color: white;
+            font-weight: 800;
+            text-shadow: 1px 1px 10px black;
+            margin: 70px 0 0 80px;
+        }
+        
+        footer {
+            height: 2.5rem;
+            background: rgb(0, 159, 255);
+            background: -moz-linear-gradient(90deg, rgba(0, 159, 255, 1) 0%, rgba(0, 168, 255, 1) 30%, rgba(0, 212, 255, 1) 74%);
+            background: -webkit-linear-gradient(90deg, rgba(0, 159, 255, 1) 0%, rgba(0, 168, 255, 1) 30%, rgba(0, 212, 255, 1) 74%);
+            background: linear-gradient(90deg, rgba(0, 159, 255, 1) 0%, rgba(0, 168, 255, 1) 30%, rgba(0, 212, 255, 1) 74%);
+            filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#009fff", endColorstr="#00d4ff", GradientType=1);
+        }
+        /*Images*/
+        
+        #jacket-1 {
+            background-image: url("../img/jacket-1.webp");
+            height: 300px;
+            width: 300px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        @media (max-width: 680px) {
+            #jacket-1 {
+                width: 90vw;
+                height: 300px;
+            }
+        }
+        
+        #jacket-2 {
+            background-image: url("../img/jacket-2.webp");
+            height: 300px;
+            width: 300px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        @media (max-width: 680px) {
+            #jacket-2 {
+                width: 90vw;
+                height: 300px;
+            }
+        }
+        
+        #jacket-3 {
+            background-image: url("../img/jacket-3.webp");
+            height: 300px;
+            width: 300px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        @media (max-width: 680px) {
+            #jacket-3 {
+                width: 90vw;
+                height: 300px;
+            }
+        }
+        
+        #jacket-4 {
+            background-image: url("../img/jacket-4.webp");
+            height: 300px;
+            width: 300px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        @media (max-width: 680px) {
+            #jacket-4 {
+                width: 90vw;
+                height: 300px;
+            }
+        }
+        
+        #jacket-5 {
+            background-image: url("../img/jacket-5.webp");
+            height: 300px;
+            width: 300px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        @media (max-width: 680px) {
+            #jacket-5 {
+                width: 90vw;
+                height: 300px;
+            }
+        }
+        
+        #jacket-6 {
+            background-image: url("../img/jacket-6.webp");
+            height: 300px;
+            width: 300px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        @media (max-width: 680px) {
+            #jacket-6 {
+                width: 90vw;
+                height: 300px;
+            }
+        }
+        
+        #jacket-7 {
+            background-image: url("../img/jacket-7.webp");
+            height: 300px;
+            width: 300px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        @media (max-width: 680px) {
+            #jacket-7 {
+                width: 90vw;
+                height: 300px;
+            }
+        }
+        
+        #jacket-8 {
+            background-image: url("../img/jacket-8.webp");
+            height: 300px;
+            width: 300px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        @media (max-width: 680px) {
+            #jacket-8 {
+                width: 90vw;
+                height: 300px;
+            }
+        }
+        
+        #jacket-9 {
+            background-image: url("../img/jacket-9.webp");
+            height: 300px;
+            width: 300px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        @media (max-width: 680px) {
+            #jacket-9 {
+                width: 90vw;
+                height: 300px;
+            }
+        }
+        
+        #jacket-10 {
+            background-image: url("../img/jacket-10.webp");
+            height: 300px;
+            width: 300px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        @media (max-width: 680px) {
+            #jacket-10 {
+                width: 90vw;
+                height: 300px;
+            }
+        }
+        
+        #jacket-11 {
+            background-image: url("../img/jacket-11.webp");
+            height: 300px;
+            width: 300px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        @media (max-width: 680px) {
+            #jacket-11 {
+                width: 90vw;
+                height: 300px;
+            }
+        }
+        
+        #jacket-12 {
+            background-image: url("../img/jacket-12.webp");
+            height: 300px;
+            width: 300px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        @media (max-width: 680px) {
+            #jacket-12 {
+                width: 90vw;
+                height: 300px;
+            }
+        }
+        
+        .contact-item p {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        
+        .ig-link {
+            border: solid 2px#ccccb3;
+            border-radius: 10px;
+            width: 400px;
+            box-shadow: 1px 1px 10px gray;
+            transition: .2s ease-in-out;
+        }
+        
+        .ig-link:hover {
+            transform: scale(1.1, 1.1);
+        }
+        
+        .iglink-img {
+            width: 100px;
+        }
+        
+        .ig-link span {
+            font-size: 25px;
+            font-weight: bold;
+            color: gray;
+        }
